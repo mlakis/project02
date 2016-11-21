@@ -1,0 +1,98 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 99% 2%;
+	background-attachment: fixed;
+	background-size: 100px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	margin: 0;
+	margin-bottom: 50px;
+	border: 0;
+	background-color: #f1f1f1;
+}
+
+article p, article table{
+	background-color: rgba(255,255,255,0.7);
+}
+
+h2  {
+	margin: 0;
+	color: red;
+	font-weight: normal;
+	font-size: 30px;
+	border-bottom: 2px solid #0161AB;
+  	text-align: center;
+}
+
+.slideshow {
+	width: 100%;
+}
+
+.table-bordered {
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 2px #cccccc;	
+	-webkit-box-shadow: 2px 2px 2px #cccccc;
+	border: #cccccc 1px solid;
+	width: 100%;}
+
+.table-bordered th{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px; 
+}
+
+.table-bordered td{ 
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+@media (min-width: 658px) {
+	.footer {
+	  position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 30px;
+	  background-color: #0161AB;
+	}
+}
+
+@media (max-width: 700px) {
+	.footer {
+	  position: absolute;
+	  font-size: 8px;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 20px;
+	  background-color: #0161AB;
+	}
+
+	article p {
+		font-size: 10px;
+	}
+}
+
+.footer p{
+	color: #f1f1f1;
+}
+
+nav a{ color:red; }
+
+.active li{
+	background-color:#0161AB; 
+}
+.active a{
+	color: white;
+	background-color:#0161AB; 
+}

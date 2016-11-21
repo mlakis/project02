@@ -1,0 +1,16 @@
+Team Members
+
+Jie Deng - CSS Artist
+Yukako Ito - Architect
+Rebecca Van Dyke - JavaScript Coder
+Carolyn Zelicof - Content Master and Designer
+Annie Zhang - Framework Wrangler
+
+
+Here's the technology that was used in this project...
+Bootstrap
+W3C Tutorials on Slideshows
+Github
+
+Information taken from:
+https://www.nhl.com/rangers/
