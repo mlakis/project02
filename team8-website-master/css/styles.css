@@ -87,7 +87,9 @@ h2  {
 	color: #f1f1f1;
 }
 
-nav a{ color:red; }
+nav a{ 
+	color:red; 
+}
 
 .active li{
 	background-color:#0161AB; 
