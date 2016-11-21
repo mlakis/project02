@@ -7,9 +7,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Colophon</title>
-	
-	<?php include("inc/top.inc");?>
 
+	<?php include("inc/top.inc");?>
+    <header>
+	<h1><a href="index.php">New York Rangers</a></h1> 
+    </header>
 	<!--Probably use a php include for the hero/header-->
 
 	<?php include("inc/nav.inc");?>
