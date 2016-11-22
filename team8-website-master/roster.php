@@ -10,7 +10,7 @@
 	<title>Roster</title>
 	<?php include("inc/top.inc");?>
     <header>
-	<h1><a href="index.php">New York Rangers</a></h1> 
+	<h1><a href="index.php">New York Rangers</a></h1>
     </header>
 
 	<!--Probably use a php include for the hero/header-->
@@ -22,330 +22,345 @@
 			<table class="table-bordered">
 					<caption class="tcaption"><strong><em>2016 New York Rangers Roster</em></strong></caption>
 					<tr class="trow">
-						<th class="theader">Number</th>
-						<th class="theader">Name</th>
-						<th class="theader">Position</th>
-						<th class="theader">Shoots</th>
+						<th class="theader myCell">Number</th>
+						<th class="theader myCell">Name</th>
+						<th class="theader myCell">Position</th>
+						<th class="theader myCell">Shoots</th>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">37</td>
-						<td class="tdescription">Chris Brown</td>
-						<td class="tdescription">RW.</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">37</td>
+						<td class="tdescription myCell">Chris Brown</td>
+						<td class="tdescription myCell">RW.</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">89</td>
-						<td class="tdescription">Pavel Buchnevich</td>
-						<td class="tdescription">LW.</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">89</td>
+						<td class="tdescription myCell">Pavel Buchnevich</td>
+						<td class="tdescription myCell">LW.</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">60</td>
-						<td class="tdescription">Adam Chapie</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">60</td>
+						<td class="tdescription myCell">Adam Chapie</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">19</td>
-						<td class="tdescription">Jesper Fast</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">19</td>
+						<td class="tdescription myCell">Jesper Fast</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">51</td>
-						<td class="tdescription">Steven Fogarty</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">51</td>
+						<td class="tdescription myCell">Steven Fogarty</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">54</td>
-						<td class="tdescription">Gabriel Fontaine</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">54</td>
+						<td class="tdescription myCell">Gabriel Fontaine</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">14</td>
-						<td class="tdescription">Nathan Gerbe</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">14</td>
+						<td class="tdescription myCell">Nathan Gerbe</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">97</td>
-						<td class="tdescription">Timothy Gettinger</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">97</td>
+						<td class="tdescription myCell">Timothy Gettinger</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">15</td>
-						<td class="tdescription">Tanner Glass</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">15</td>
+						<td class="tdescription myCell">Tanner Glass</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">40</td>
-						<td class="tdescription">Michael Grabner</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">40</td>
+						<td class="tdescription myCell">Michael Grabner</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">78</td>
-						<td class="tdescription">Ryan Gropp</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">78</td>
+						<td class="tdescription myCell">Ryan Gropp</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">13</td>
-						<td class="tdescription">Kevin Hayes</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">13</td>
+						<td class="tdescription myCell">Kevin Hayes</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">46</td>
-						<td class="tdescription">Marek Hrivik</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">46</td>
+						<td class="tdescription myCell">Marek Hrivik</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">39</td>
-						<td class="tdescription">Nicklas Jensen</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">39</td>
+						<td class="tdescription myCell">Nicklas Jensen</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">86</td>
-						<td class="tdescription"> Josh Jooris</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">86</td>
+						<td class="tdescription myCell"> Josh Jooris</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">71</td>
-						<td class="tdescription">Robin Kovacs</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">71</td>
+						<td class="tdescription myCell">Robin Kovacs</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">20</td>
-						<td class="tdescription">Chris Kreider</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">20</td>
+						<td class="tdescription myCell">Chris Kreider</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">24</td>
-						<td class="tdescription">Oscar Lindberg</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">24</td>
+						<td class="tdescription myCell">Oscar Lindberg</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">10</td>
-						<td class="tdescription"> J.T. Miller</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">10</td>
+						<td class="tdescription myCell"> J.T. Miller</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">61</td>
-						<td class="tdescription">Rick Nash</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">61</td>
+						<td class="tdescription myCell">Rick Nash</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">67</td>
-						<td class="tdescription">Cristoval Nieves</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">67</td>
+						<td class="tdescription myCell">Cristoval Nieves</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">73</td>
-						<td class="tdescription"> Brandon Pirri</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">73</td>
+						<td class="tdescription myCell"> Brandon Pirri</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">59</td>
-						<td class="tdescription">Ty Ronning</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">59</td>
+						<td class="tdescription myCell">Ty Ronning</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">21</td>
-						<td class="tdescription">Derek Stepan(A)</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">21</td>
+						<td class="tdescription myCell">Derek Stepan(A)</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">84</td>
-						<td class="tdescription"> Malte Stromwall</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">84</td>
+						<td class="tdescription myCell"> Malte Stromwall</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">82</td>
-						<td class="tdescription"> Adam Tambellini</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">82</td>
+						<td class="tdescription myCell"> Adam Tambellini</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">26</td>
-						<td class="tdescription">Jimmy Vesey</td>
-						<td class="tdescription">LW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">26</td>
+						<td class="tdescription myCell">Jimmy Vesey</td>
+						<td class="tdescription myCell">LW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">93</td>
-						<td class="tdescription">Mika Zibanejad</td>
-						<td class="tdescription">C</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">93</td>
+						<td class="tdescription myCell">Mika Zibanejad</td>
+						<td class="tdescription myCell">C</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">36</td>
-						<td class="tdescription"> Mats Zuccarello</td>
-						<td class="tdescription">RW</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">36</td>
+						<td class="tdescription myCell"> Mats Zuccarello</td>
+						<td class="tdescription myCell">RW</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">92</td>
-						<td class="tdescription">Calle Andersson</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">92</td>
+						<td class="tdescription myCell">Calle Andersson</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">87</td>
-						<td class="tdescription">Mat Bodie</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">87</td>
+						<td class="tdescription myCell">Mat Bodie</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					<tr class="trow">
-						<td class="tdescription">87</td>
-						<td class="tdescription">Adam Clendening</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">87</td>
+						<td class="tdescription myCell">Adam Clendening</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">4</td>
-						<td class="tdescription">Sean Day</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">4</td>
+						<td class="tdescription myCell">Sean Day</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">53</td>
-						<td class="tdescription">Troy Donnay</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">53</td>
+						<td class="tdescription myCell">Troy Donnay</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">58</td>
-						<td class="tdescription">John Gilmour</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">58</td>
+						<td class="tdescription myCell">John Gilmour</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">5</td>
-						<td class="tdescription">Dan Girardi (A)</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">5</td>
+						<td class="tdescription myCell">Dan Girardi (A)</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">63</td>
-						<td class="tdescription">Ryan Graves</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">63</td>
+						<td class="tdescription myCell">Ryan Graves</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">22</td>
-						<td class="tdescription">Nick Holden</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">22</td>
+						<td class="tdescription myCell">Nick Holden</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">52</td>
-						<td class="tdescription">Tommy Hughes</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">52</td>
+						<td class="tdescription myCell">Tommy Hughes</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">8</td>
-						<td class="tdescription">Kevin Klein</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">8</td>
+						<td class="tdescription myCell">Kevin Klein</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">27</td>
-						<td class="tdescription">Ryan McDonagh(C)</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescriptio myCelln">27</td>
+						<td class="tdescription myCell">Ryan McDonagh(C)</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 					<tr class="trow">
-						<td class="tdescription">6</td>
-						<td class="tdescription">Dylan McIlrath</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">6</td>
+						<td class="tdescription myCell">Dylan McIlrath</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">44</td>
-						<td class="tdescription">Michael Paliotta</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">R</td>
+						<td class="tdescription myCell">44</td>
+						<td class="tdescription myCell">Michael Paliotta</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">R</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">76</td>
-						<td class="tdescription">Brady Skjei</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">76</td>
+						<td class="tdescription myCell">Brady Skjei</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">18</td>
-						<td class="tdescription">Marc Staal(A)</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">18</td>
+						<td class="tdescription myCell">Marc Staal(A)</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">55</td>
-						<td class="tdescription">Chris Summers</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">55</td>
+						<td class="tdescription myCell">Chris Summers</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">64</td>
-						<td class="tdescription">Sergey Zborovskiy</td>
-						<td class="tdescription">D</td>
-						<td class="tdescription">L</td>
+						<td class="tdescription myCell">64</td>
+						<td class="tdescription myCell">Sergey Zborovskiy</td>
+						<td class="tdescription myCell">D</td>
+						<td class="tdescription myCell">L</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">75</td>
-						<td class="tdescription">Brandon Halverson</td>
-						<td class="tdescription">G</td>
-						<td class="tdescription">N/A</td>
+						<td class="tdescription myCell">75</td>
+						<td class="tdescription myCell">Brandon Halverson</td>
+						<td class="tdescription myCell">G</td>
+						<td class="tdescription myCell">N/A</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">45</td>
-						<td class="tdescription">Magnus Hellberg</td>
-						<td class="tdescription">G</td>
-						<td class="tdescription">N/A</td>
+						<td class="tdescription myCell">45</td>
+						<td class="tdescription myCell">Magnus Hellberg</td>
+						<td class="tdescription myCell">G</td>
+						<td class="tdescription myCell">N/A</td>
 					</tr>
 						<tr class="trow">
-						<td class="tdescription">30</td>
-						<td class="tdescription">Henrik Lundqvist</td>
-						<td class="tdescription">G</td>
-						<td class="tdescription">N/A</td>
+						<td class="tdescription myCell">30</td>
+						<td class="tdescription myCell">Henrik Lundqvist</td>
+						<td class="tdescription myCell">G</td>
+						<td class="tdescription myCell">N/A</td>
 					</tr>
 						</tr>
 						<tr class="trow">
-						<td class="tdescription">32</td>
-						<td class="tdescription">Antti Raanta</td>
-						<td class="tdescription">G</td>
-						<td class="tdescription">N/A</td>
+						<td class="tdescription myCell">32</td>
+						<td class="tdescription myCell">Antti Raanta</td>
+						<td class="tdescription myCell">G</td>
+						<td class="tdescription myCell">N/A</td>
 					</tr>
 						</tr>
 						<tr class="trow">
-						<td class="tdescription">70</td>
-						<td class="tdescription">Mackenzie Skapski</td>
-						<td class="tdescription">G</td>
-						<td class="tdescription">N/A</td>
+						<td class="tdescription myCell">70</td>
+						<td class="tdescription myCell">Mackenzie Skapski</td>
+						<td class="tdescription myCell">G</td>
+						<td class="tdescription myCell">N/A</td>
 					</tr>
 
-				</table>		
+				</table>
 		</article>
 		</div> <!-- container -->
 </body>
 
 <?php include("inc/footer.inc");?>
+
+<script>
+$(document).ready(function() {
+		$('.myCell').on('mouseover', function() {
+				$(this).closest('tr').addClass('highlight');
+				$(this).closest('table').find('.myCell:nth-child(' + ($(this).index() + 1) + ')').addClass('highlight');
+		});
+		$('.myCell').on('mouseout', function() {
+				$(this).closest('tr').removeClass('highlight');
+				$(this).closest('table').find('.myCell:nth-child(' + ($(this).index() + 1) + ')').removeClass('highlight');
+		});
+});
+
+</script>
+
 
 </html>

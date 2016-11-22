@@ -27,25 +27,25 @@
 					<th class="theader">Title</th>
 				</tr>
 				<tr class="trow">
-					<td class="tdescription" id="alain">Alain Vigneault</td>
-					<td class="tdescription">Head Coach</td>
+					<td class="tdescription myCell" id="alain">Alain Vigneault</td>
+					<td class="tdescription myCell">Head Coach</td>
 				</tr>
 				<tr class="trow">
-					<td class="tdescription" id="benoit">Benoit Allaire</td>
-					<td class="tdescription">Assistant and Goaltending Coach</td>
+					<td class="tdescription myCell" id="benoit">Benoit Allaire</td>
+					<td class="tdescription myCell">Assistant and Goaltending Coach</td>
 				</tr>
 				<tr class="trow">
-					<td class="tdescription" id="scott">Scott Arniel</td>
-					<td class="tdescription">Associate Coach</td>
+					<td class="tdescription myCell" id="scott">Scott Arniel</td>
+					<td class="tdescription myCell">Associate Coach</td>
 				</tr>
 				<tr class="trow">
-					<td class="tdescription" id="ulf">Ulf Samuelsson</td>
-					<td class="tdescription">Assistant Coach</td>
+					<td class="tdescription myCell" id="ulf">Ulf Samuelsson</td>
+					<td class="tdescription myCell">Assistant Coach</td>
 
 				</tr>
 				<tr class="trow">
-					<td class="tdescription" id="darryl">Darryl Williams </td>
-					<td class="tdescription">Assistant Coach</td>
+					<td class="tdescription myCell" id="darryl">Darryl Williams </td>
+					<td class="tdescription myCell">Assistant Coach</td>
 				</tr>
 			</table>
 		</article>
@@ -246,5 +246,20 @@ window.onclick = function(event) {
 
 
 </script>
+
+<script>
+$(document).ready(function() {
+		$('.myCell').on('mouseover', function() {
+				$(this).closest('tr').addClass('highlight');
+				$(this).closest('table').find('.myCell:nth-child(' + ($(this).index() + 1) + ')').addClass('highlight');
+		});
+		$('.myCell').on('mouseout', function() {
+				$(this).closest('tr').removeClass('highlight');
+				$(this).closest('table').find('.myCell:nth-child(' + ($(this).index() + 1) + ')').removeClass('highlight');
+		});
+});
+
+</script>
+
 
 </html>
