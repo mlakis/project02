@@ -18,6 +18,7 @@
 
 	<?php include("inc/nav.inc");?>
 
+<!---
 	<div class="slideshow-container">
 	<div class="slideshow">
 	<div class ="mySlides fade">
@@ -46,6 +47,16 @@
 	</div>
 
 </div>
+-->
+<div class="hero-container">
+	<div class="slider">
+		<img src="images/WelcometoNYR.jpg" alt="welcome">
+		<img src="images/NYRlogo.jpg" alt="logo">
+		<img src="images/NewYorkRangersTeamPic.jpg" alt="team pic">
+		<img src="images/RangersSkyline.jpg" alt="skyline">
+	</div>
+</div>
+
 <br>
 
 <div style="text-align:center">
@@ -65,5 +76,11 @@
 </body>
 
 <?php include("inc/footer.inc");?>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="sss/sss.min.js"></script>
+		<script>
+			$('.slider').sss();
+		</script>
 
 </html>
