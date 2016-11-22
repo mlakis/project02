@@ -8,7 +8,7 @@ body {
 	background-image: url(../images/logo.png);
 	background-image padding:30px 0px 0px 30px;
 	background-repeat: no-repeat;
-	background-size: 150px;
+	background-size: 100px;
 	background-position: fixed;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
@@ -129,7 +129,7 @@ nav a { color:white; }
 
 nav a:hover {
 	background-color: white;
-	color:#0161AB;
+	color:red;
 
 }
 .active li{
@@ -138,6 +138,7 @@ nav a:hover {
 .active a{
 	color: white;
 	background-color:#0161AB; 
+	font-weight: bold;
 }
 
 /**Additional CSS**/
@@ -152,7 +153,7 @@ nav a:hover {
 header {
 	text-decoration: none;
 	font-family: 'Graduate', cursive;
-	padding-left: 30px;
+	padding-left: 50px;
 }
 
 
