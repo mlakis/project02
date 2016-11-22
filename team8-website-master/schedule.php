@@ -20,10 +20,10 @@
 		<table class="table-bordered">
 				<caption class="tcaption"><strong><em>New York Rangers October Schedule</em></strong></caption>
 				<tr class="trow">
-					<th class="theader myCell">Date</th>
-					<th class="theader myCell">Opponent</th>
-					<th class="theader myCell">Location</th>
-					<th class="theader myCell">Time</th>
+					<th class="theader">Date</th>
+					<th class="theader">Opponent</th>
+					<th class="theader">Location</th>
+					<th class="theader">Time</th>
 				</tr>
 				<tr class="trow">
 					<td class="tdescription myCell">10/01/2016</td>

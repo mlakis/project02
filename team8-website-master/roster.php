@@ -22,10 +22,10 @@
 			<table class="table-bordered">
 					<caption class="tcaption"><strong><em>2016 New York Rangers Roster</em></strong></caption>
 					<tr class="trow">
-						<th class="theader myCell">Number</th>
-						<th class="theader myCell">Name</th>
-						<th class="theader myCell">Position</th>
-						<th class="theader myCell">Shoots</th>
+						<th class="theader">Number</th>
+						<th class="theader">Name</th>
+						<th class="theader">Position</th>
+						<th class="theader">Shoots</th>
 					</tr>
 					<tr class="trow">
 						<td class="tdescription myCell">37</td>
