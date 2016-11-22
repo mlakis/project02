@@ -11,7 +11,7 @@
 	<?php include("inc/top.inc");?>
 
     <header>
-	<h1><a href="index.php">New York Rangers</a></h1> 
+	<h1><a href="index.php">New York Rangers</a></h1>
     </header>
 
 	<!--Probably use a php include for the hero/header-->
@@ -48,13 +48,11 @@
 
 </div>
 -->
-<div class="hero-container">
-	<div class="slider">
-		<img src="images/WelcometoNYR.jpg" alt="welcome">
-		<img src="images/NYRlogo.jpg" alt="logo">
-		<img src="images/NewYorkRangersTeamPic.jpg" alt="team pic">
-		<img src="images/RangersSkyline.jpg" alt="skyline">
-	</div>
+<div class="yourSlider">
+		<img src="images/WelcometoNYR.jpg" alt="welcome" data-slidecaption="Welcome to NY Rangers Homepage">
+		<img src="images/NYRlogo.jpg" alt="logo" data-slidecaption="Hola">
+		<img src="images/NewYorkRangersTeamPic.jpg" alt="team pic" data-slidecaption="Team">
+		<img src="images/RangersSkyline.jpg" alt="skyline" data-slidecaption="Skyline">
 </div>
 
 <br>
@@ -70,7 +68,7 @@
 
 		<article>
 			<h2>New York Rangers</h2>
-			<p class="col-xs-12 centered" class="intro">The New York Rangers are an American professional ice hockey team based in New York City that competes in the National Hockey League (NHL). They are a member club of the league's Metropolitan Division in the Eastern Conference. The team plays its home games at Madison Square Garden, located in the borough of Manhattan. The Rangers are one of three NHL franchises in the New York metropolitan area, along with the New Jersey Devils and New York Islanders. The club is also one of the oldest teams in the NHL, having joined in 1926 as an expansion franchise. They are part of the group of teams referred to as the Original Six, along with the Boston Bruins, Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens and Toronto Maple Leafs. The Rangers were the first NHL franchise in the United States to win the Stanley Cup,which they have done four times, most recently in 1993–94.</p>			
+			<p class="col-xs-12 centered" class="intro">The New York Rangers are an American professional ice hockey team based in New York City that competes in the National Hockey League (NHL). They are a member club of the league's Metropolitan Division in the Eastern Conference. The team plays its home games at Madison Square Garden, located in the borough of Manhattan. The Rangers are one of three NHL franchises in the New York metropolitan area, along with the New Jersey Devils and New York Islanders. The club is also one of the oldest teams in the NHL, having joined in 1926 as an expansion franchise. They are part of the group of teams referred to as the Original Six, along with the Boston Bruins, Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens and Toronto Maple Leafs. The Rangers were the first NHL franchise in the United States to win the Stanley Cup,which they have done four times, most recently in 1993–94.</p>
 		</article>
 	</div> <!-- container -->
 
@@ -78,10 +76,18 @@
 
 <?php include("inc/footer.inc");?>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script src="sss/sss.min.js"></script>
-		<script>
-			$('.slider').sss();
-		</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="//www.builtbyevolve.com/files/nerveSlider/jquery.nerveSlider.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".yourSlider").nerveSlider({
+		sliderWidth: "1000px",
+		sliderHeight: "400px",
+		sliderResizable: true
+		// etc...
+	});
+});
+</script>
 
 </html>
