@@ -66,7 +66,8 @@ h2  {
 
 .theader {
 	background-color: red;
-	color: #bfbfbf;
+	color: white;
+	font-weight:bold;
 }
 
 .table-bordered tr:nth-child(odd) {
@@ -119,16 +120,16 @@ h2  {
 
 /**Nav-bar**/
 
-nav li {background-color: red;
-	color: white;
+nav li {background-color: white;
+	color: red;
 	
 	}
 
-nav a { color:white; }
+nav a { color:red; }
 
 nav a:hover {
-	background-color: white;
-	color:#0161AB;
+	background-color: red;
+	color:#white;
 
 }
 .active li{
