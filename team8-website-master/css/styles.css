@@ -16,6 +16,7 @@ body {
 	margin-bottom: 50px;
 	border: 0;
 	background-color: #f1f1f1;
+	padding-bottom: 30px;
 }
 
 h2,h3 {
@@ -145,7 +146,6 @@ nav a:hover {
 	width:60%;
 	background-color: #f1f1f1;
 	color: #0161AB;
-	padding-bottom: 30px;
 
 }
 header {
