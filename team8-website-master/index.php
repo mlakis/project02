@@ -19,10 +19,10 @@
 	<?php include("inc/nav.inc");?>
 
 <div class="yourSlider">
-		<img src="images/WelcometoNYR.jpg" alt="welcome" data-slidecaption="Welcome to NY Rangers Homepage">
-		<img src="images/NYRlogo.jpg" alt="logo" data-slidecaption="Hola">
-		<img src="images/NewYorkRangersTeamPic.jpg" alt="team pic" data-slidecaption="Team">
-		<img src="images/RangersSkyline.jpg" alt="skyline" data-slidecaption="Skyline">
+		<img src="images/newpic1.jpg" alt="Rangers Goal" data-slidecaption="Grabner giving the Rangers a 1-0 lead!.">
+		<img src="images/newgoaliepic.jpg" alt="Goalie Save" data-slidecaption="Henrik saving the day!">
+		<img src="images/winoverboston.jpg" alt="Win over Boston" data-slidecaption="Rangers beat Boston 5-2 on October 26 to bump their win streak up tp 4!">
+		<img src="images/seasonopener.jpg" alt="Goal in season opener" data-slidecaption="Rangers open up the season with a 5-3 win over the Islanders!">
 </div>
 
 <br>
