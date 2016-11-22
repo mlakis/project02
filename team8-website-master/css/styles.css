@@ -6,8 +6,8 @@ html{
 body {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
-	background-position: 2% 99%;
 	background-size: 70px;
+	float: left;
 	background-position: fixed;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
@@ -15,10 +15,6 @@ body {
 	margin-bottom: 50px;
 	border: 0;
 	background-color: #f1f1f1;
-}
-
-article p, article table{
-	background-color: rgba(255,255,255,0.7);
 }
 
 h1,h2,h3 {
@@ -66,19 +62,19 @@ h2  {
 
 /**Added Zebra Stripes**/
 
-.theader {
+.table-boarder tr:nth-child(1) {
 	background-color: #0161AB;
 	color: #f1f1f1;
 }
 
 .table-boarder tr:nth-child(odd) {
-   background-color: red;
-   color: white;
+   background-color: #bfbfbf;
+   color: red;
 }
 
 .table-boarder tr:nth-child(even) {
    background-color: white;
-   color: #0161AB;
+   color: red;
 }
 
 
@@ -121,20 +117,34 @@ h2  {
 /**Nav-bar**/
 
 
-nav a{ color:red;
+.nav-bar ul {
+list-style-type: none;
+margin: 0;
+padding-bottom: 20px;
+}
+
+.nav-bar li {
+background: red;
+color: white;
+display: inline;
+margin: 0;
+height: 38px;
+padding: 0;
+}
+
+.nav-bar a {
+background: red;
+color:white;
 font-weight: bold;
+text-decoration: none;
 }
 
-.active li{
-	background-color:#0161AB; 
-}
-.active a{
-	color: white;
-	background-color:#0161AB; 
+.nav-bar a:hover {
+background-color: #d9d9d9;
 }
 
-nav a:hover {
-background-color: red;
+.nav-bar .active a {
+background: #0161AB;
 color: white;
 }
 
