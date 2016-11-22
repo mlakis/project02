@@ -18,36 +18,6 @@
 
 	<?php include("inc/nav.inc");?>
 
-<!---
-	<div class="slideshow-container">
-	<div class="slideshow">
-	<div class ="mySlides fade">
-		<figure>
-			<img src="images/WelcometoNYR.jpg" width="100%" />
-		</figure>
-	</div>
-
-	<div class="mySlides fade">
-		<figure>
-			<img src="images/NYRlogo.jpg" width="100%" />
-		</figure>
-	</div>
-
-	<div class="mySlides fade">
-		<figure>
-			<img src="images/NewYorkRangersTeamPic.jpg" width="100%" />
-		</figure>
-	</div>
-
-	<div class="mySlides fade">
-		<figure>
-			<img src="images/RangersSkyline.jpg" width="100%" />
-		</figure>
-	</div>
-	</div>
-
-</div>
--->
 <div class="yourSlider">
 		<img src="images/WelcometoNYR.jpg" alt="welcome" data-slidecaption="Welcome to NY Rangers Homepage">
 		<img src="images/NYRlogo.jpg" alt="logo" data-slidecaption="Hola">
@@ -56,13 +26,6 @@
 </div>
 
 <br>
-<!--
-<div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
-	<span class="dot" onclick="currentSlide(4)"></span>
-</div>-->
 
 <script src="js/slideshow.js"></script>
 
