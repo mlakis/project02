@@ -6,8 +6,9 @@ html{
 
 body {
 	background-image: url(../images/logo.png);
+	background-image padding:15px 0px 0px 15px;
 	background-repeat: no-repeat;
-	background-size: 70px;
+	background-size: 120px;
 	background-position: fixed;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
@@ -110,16 +111,12 @@ h2  {
 .footer p {
 	color: #f1f1f1;
 	text-align: center;
-	padding-top: 30px;
 
 }
 
 
 
 /**Nav-bar**/
-
-nav ul {position: fixed;}
-
 
 nav li {background-color: red;
 	color: white;
@@ -148,6 +145,7 @@ nav a:hover {
 	width:60%;
 	background-color: #f1f1f1;
 	color: #0161AB;
+	padding-top: 30px;
 
 }
 header {
