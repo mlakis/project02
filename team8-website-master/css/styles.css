@@ -66,13 +66,17 @@ h2  {
 
 /**Added Zebra Stripes**/
 
-.table-bordered tr:nth-child(1) {
-   background-color: red;
-   border: none;
-   color:white;
+.theader {
+	background-color: #0161AB;
+	color: #f1f1f1;
 }
 
-tr:nth-child(odd) {
+.table-boarder tr:nth-child(odd) {
+   background-color: red;
+   color: white;
+}
+
+.table-boarder tr:nth-child(even) {
    background-color: white;
    color: #0161AB;
 }
