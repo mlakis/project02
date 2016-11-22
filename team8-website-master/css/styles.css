@@ -145,7 +145,7 @@ nav a:hover {
 	width:60%;
 	background-color: #f1f1f1;
 	color: #0161AB;
-	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 header {
@@ -160,6 +160,3 @@ header {
     background-color:lightgray;
 }
 
-.intro{
-	padding-bottom: 10px;
-}
