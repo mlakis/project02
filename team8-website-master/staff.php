@@ -244,10 +244,6 @@ window.onclick = function(event) {
 
 
 
-
-</script>
-
-<script>
 $(document).ready(function() {
 		$('.myCell').on('mouseover', function() {
 				$(this).closest('tr').addClass('highlight');
