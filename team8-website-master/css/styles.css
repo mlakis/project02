@@ -4,7 +4,12 @@ html{
 }
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 2% 99%;
+	background-size: 70px;
+	background-position: fixed;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	margin: 0;
 	margin-bottom: 50px;
@@ -14,6 +19,10 @@ body {
 
 article p, article table{
 	background-color: rgba(255,255,255,0.7);
+}
+
+h1,h2,h3 {
+	font-family: 'Raleway', sans-serif;
 }
 
 h2  {
@@ -44,6 +53,7 @@ h2  {
 	text-align: center;
 	padding-top: 8px;
 	padding-bottom: 8px; 
+
 }
 
 .table-bordered td{ 
@@ -57,13 +67,16 @@ h2  {
 /**Added Zebra Stripes**/
 
 .table-bordered tr:nth-child(1) {
-   background-color: #ef8f8f;
+   background-color: red;
    border: none;
+   color:white;
 }
 
 tr:nth-child(odd) {
-   background-color: #ef8f8f;
+   background-color: white;
+   color: #0161AB;
 }
+
 
 /**Mobile Friendly**/
 
@@ -85,7 +98,7 @@ tr:nth-child(odd) {
 	  bottom: 0;
 	  width: 100%;
 	  /* Set the fixed height of the footer here */
-	  height: 20px;
+	  height: 40px;
 	  background-color: #0161AB;
 	}
 
@@ -103,15 +116,6 @@ tr:nth-child(odd) {
 
 /**Nav-bar**/
 
-nav { 
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	background-position: 2% 99%;
-	background-size: 70px;
-	position: fixed;
-
-
-} 
 
 nav a{ color:red;
 font-weight: bold;
@@ -125,7 +129,7 @@ font-weight: bold;
 	background-color:#0161AB; 
 }
 
-a:hover {
+nav a:hover {
 background-color: red;
 color: white;
 }
@@ -134,7 +138,14 @@ color: white;
 
 .intro {
 	padding:10px;
+	width:60%;
 	background-color: #f1f1f1;
 	color: #0161AB;
+
+}
+
+title {
+	text-decoration: none;
+	font-family: 'Graduate', cursive;
 
 }
