@@ -1,7 +1,5 @@
 .container {margin: 0 auto;
-	width: 80%; 
-	max-width: 960px;
-
+	width: 95%;
 	}
 
 html{
@@ -69,18 +67,18 @@ h2  {
 /**Added Zebra Stripes**/
 
 .theader {
-	background-color: #0161AB;
-	color: #f1f1f1;
+	background-color: red;
+	color: #bfbfbf;
 }
 
 .table-bordered tr:nth-child(odd) {
-   background-color: #bfbfbf;
-   color: red;
+   background-color: #0161AB;
+   color: white;
 }
 
 .table-bordered tr:nth-child(even) {
    background-color: white;
-   color: #0161AB;
+   color: red;
 }
 
 
@@ -119,8 +117,14 @@ h2  {
 
 }
 
+footer {
+	padding-top: 50px;
+}
+
 
 /**Nav-bar**/
+
+nav ul {position: fixed;}
 
 
 nav li {background-color: red;
@@ -131,8 +135,8 @@ nav li {background-color: red;
 nav a { color:white; }
 
 nav a:hover {
-	background-color: #666666;
-	color:red;
+	background-color: white;
+	color:#0161AB;
 
 }
 .active li{
