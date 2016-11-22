@@ -19,10 +19,10 @@
 	<?php include("inc/nav.inc");?>
 
 <div class="yourSlider">
-		<img src="images/newpic1.jpg" alt="Rangers Goal" data-slidecaption="Grabner giving the Rangers a 1-0 lead!.">
-		<img src="images/newgoaliepic.jpg" alt="Goalie Save" data-slidecaption="Henrik saving the day!">
-		<img src="images/winoverboston.jpg" alt="Win over Boston" data-slidecaption="Rangers beat Boston 5-2 on October 26 to bump their win streak up tp 4!">
-		<img src="images/seasonopener.jpg" alt="Goal in season opener" data-slidecaption="Rangers open up the season with a 5-3 win over the Islanders!">
+		<img src="images/panthergame.jpg" alt="Rangers vs. Panthers" data-slidecaption="Rangers fell 2-3 in a shootout to the Panthers on November 20.">
+		<img src="images/bluejackets.jpg" alt="Rangers vs. BlueJackets" data-slidecaption="Rangers lost on the road to the Columbus Blue Jackets 2-4 on November 18.">
+		<img src="images/canucks.jpg" alt="Rangers vs. Canucks" data-slidecaption="Rangers top the Canucks 7-2 on November 15.">
+		<img src="images/oilers.jpg" alt="Rangers vs. Oilers" data-slidecaption="Rangers beat the Edmonton Oilers 3-1 on November 13!">
 </div>
 
 <br>
