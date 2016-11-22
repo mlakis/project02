@@ -4,11 +4,6 @@ html{
 }
 
 body {
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	background-position: 99% 2%;
-	background-attachment: fixed;
-	background-size: 100px;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	margin: 0;
@@ -28,11 +23,14 @@ h2  {
 	font-size: 30px;
 	border-bottom: 2px solid #0161AB;
   	text-align: center;
+  	padding-bottom: 10px;
 }
 
 .slideshow {
 	width: 100%;
 }
+
+/**Table styling**/
 
 .table-bordered {
 	margin-bottom: 15px;
@@ -55,6 +53,19 @@ h2  {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+
+/**Added Zebra Stripes**/
+
+.table-bordered tr:nth-child(1) {
+   background-color: #ef8f8f;
+   border: none;
+}
+
+tr:nth-child(odd) {
+   background-color: #ef8f8f;
+}
+
+/**Mobile Friendly**/
 
 @media (min-width: 658px) {
 	.footer {
@@ -83,12 +94,27 @@ h2  {
 	}
 }
 
-.footer p{
+.footer p {
 	color: #f1f1f1;
+	text-align: center;
+	
 }
 
-nav a{ 
-	color:red; 
+
+/**Nav-bar**/
+
+nav { 
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 2% 99%;
+	background-size: 70px;
+	position: fixed;
+
+
+} 
+
+nav a{ color:red;
+font-weight: bold;
 }
 
 .active li{
@@ -97,4 +123,18 @@ nav a{
 .active a{
 	color: white;
 	background-color:#0161AB; 
+}
+
+a:hover {
+background-color: red;
+color: white;
+}
+
+/**Additional CSS**/
+
+.intro {
+	padding:10px;
+	background-color: #f1f1f1;
+	color: #0161AB;
+
 }
