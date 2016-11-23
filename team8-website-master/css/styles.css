@@ -35,7 +35,6 @@ h2 {
 /**Table styling**/
 
 .table-bordered {
-<<<<<<< Updated upstream
     margin-bottom: 15px;
     box-shadow: 2px 2px 2px #cccccc;
     -webkit-box-shadow: 2px 2px 2px #cccccc;
@@ -138,10 +137,6 @@ nav a {
     color: white;
 }
 =======
-.navbar navbar-default navbar-fixed-top li {background-color: red;
-	color: white;
-	
-	}
 
 nav a { color:white; }
 
@@ -167,23 +162,14 @@ nav a:hover {
     background-color: #f1f1f1;
     color: #0161AB;
 }
-<<<<<<< Updated upstream
-header {
-    text-decoration: none;
-    font-family: 'Graduate', cursive;
-    padding-left: 50px;
-}
-=======
 
->>>>>>> Stashed changes
 .highlight {
     background-color: lightgray;
 }
 tr:hover {
     background-color: lightgray;
 }
-<<<<<<< Updated upstream
-=======
+
 
 .navbar-brand {
 		font-family: 'Graduate', cursive;
@@ -193,4 +179,3 @@ tr:hover {
 	margin-top: 120px;
 }
 
->>>>>>> Stashed changes
