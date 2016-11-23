@@ -35,6 +35,7 @@ h2 {
 /**Table styling**/
 
 .table-bordered {
+<<<<<<< Updated upstream
     margin-bottom: 15px;
     box-shadow: 2px 2px 2px #cccccc;
     -webkit-box-shadow: 2px 2px 2px #cccccc;
@@ -53,6 +54,30 @@ h2 {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+=======
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 2px #cccccc;
+	-webkit-box-shadow: 2px 2px 2px #cccccc;
+	border: #cccccc 1px solid;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.table-bordered th{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+
+.table-bordered td{
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+>>>>>>> Stashed changes
 }
 
 /**Added Zebra Stripes**/
@@ -104,6 +129,7 @@ h2 {
 
 /**Nav-bar**/
 
+<<<<<<< Updated upstream
 nav li {
     background-color: red;
     color: white;
@@ -111,6 +137,15 @@ nav li {
 nav a {
     color: white;
 }
+=======
+.navbar navbar-default navbar-fixed-top li {background-color: red;
+	color: white;
+	
+	}
+
+nav a { color:white; }
+
+>>>>>>> Stashed changes
 nav a:hover {
     background-color: white;
     color: red;
@@ -132,14 +167,30 @@ nav a:hover {
     background-color: #f1f1f1;
     color: #0161AB;
 }
+<<<<<<< Updated upstream
 header {
     text-decoration: none;
     font-family: 'Graduate', cursive;
     padding-left: 50px;
 }
+=======
+
+>>>>>>> Stashed changes
 .highlight {
     background-color: lightgray;
 }
 tr:hover {
     background-color: lightgray;
 }
+<<<<<<< Updated upstream
+=======
+
+.navbar-brand {
+		font-family: 'Graduate', cursive;
+}
+
+.yourSlider {
+	margin-top: 120px;
+}
+
+>>>>>>> Stashed changes

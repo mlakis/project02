@@ -10,9 +10,6 @@
 
 	<?php include("inc/top.inc");?>
 
-    <header>
-	<h1><a href="index.php">New York Rangers</a></h1>
-    </header>
 
 	<!--Probably use a php include for the hero/header-->
 

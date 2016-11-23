@@ -1,11 +1,11 @@
-<nav class="navbar">
+<nav class="navbar navbar-default navbar-fixed-top">
 <div class="container-fluid">
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 		    &#9776;
 		</button>
 	</div> <!--navbar heder-->
-
+    <a class="navbar-brand" href="index.php">New York Rangers</a>
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
 			<li <?php if($thisPage=="home") { echo 'class="active"'; } ?>><a href="index.php">Home</a></li>
